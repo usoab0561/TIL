@@ -1,7 +1,7 @@
 # Segue
 storyboard에서 편하게 다른 view들을 연결 시켜주는 것.
 Ctrl키 누르고, ViewController(yellow button)눌러서 원하는 곳에 연결하면 됨.
-![image](https://user-images.githubusercontent.com/84604563/130148062-bc661e36-26a4-45d4-b379-566877f4e87f.png)
+![image](https://user-images.githubusercontent.com/84604563/130148062-bc661e36-26a4-45d4-b379-566877f4e87f.png){width: 50%}
 
 
 
