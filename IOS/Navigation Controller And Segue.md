@@ -26,7 +26,7 @@ AppKit 대신 UIKit을 사용해서 조금 더 편하게 UI 만들게 함.
 
 <br>
 
-## Navigation Controller
+# Navigation Controller
 
 <img width="681" alt="Screen Shot 2021-08-22 at 5 06 36 AM" src="https://user-images.githubusercontent.com/84604563/130333863-270dbcff-1c4c-427c-8dca-aa0d0fad09de.png" style="zoom:25%;">
 
