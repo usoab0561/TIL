@@ -1,8 +1,7 @@
-# FireBase, TableView, Cocoapod 
+# FireBase, TableView
 
 Static 해서 constants사용하는 것.
 firebase에서 login 하는 방법, document사용해서 logout 하는 방법, segue연결하는 방법
-Cocoapod 연결해서 m1 맥북에서 연결하는 방법
 왜 guard, weak self 삭제해도 되는지
 
 UITableView -> 뭐 뭐 들어가는지. tableviewCell
