@@ -15,4 +15,4 @@ label의 Lines property 0 으로 하면 채팅 크기 늘어남
 viewController Lifecycle
 Application Lifecycle
 
-
+ 
