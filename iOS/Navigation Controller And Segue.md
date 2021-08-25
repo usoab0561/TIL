@@ -34,5 +34,5 @@ AppKit 대신 UIKit을 사용해서 조금 더 편하게 UI 만들게 함.
 Navigation Controller는 뒤로가기 기능 같이 View Controller 연결 시켜준다.  
 노란색 View Controller 클릭 후 Editor -> Embed In ->Navigation Controller 클릭하면 됨.  
 Navigation bar가 만들어지고, Navigation Stack이 생긴다. 
-
+ 
 
