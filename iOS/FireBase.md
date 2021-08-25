@@ -13,6 +13,6 @@ mainQueue사용해서
 DispatchQueue.main.async <<
 
 Update하는방법. -> addSnapshotListener
-
+ 
 ## etc
 Ip 종류에 따라 공유ip, 사설 Ip
