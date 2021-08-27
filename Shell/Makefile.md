@@ -286,6 +286,6 @@ touch main.c // time stamp 변해서 main.c가 컴파일러는 수정되었다�
 make // main.c 파일만 Makefile에 따라 컴파일해주고 binary(실행파일을) 만들어줌.
 ```
 
-<br>
+<br> 
 
 [Makefile 참고](https://www.youtube.com/watch?v=jnJL6ppn26Q)
