@@ -231,6 +231,6 @@ mac terminal 에서는 커맨드 입력시 커서가 ctrl+a가 맨 처음으로 
 
 
 <br><br>
-[원문 : boomerang velog](https://velog.io/write?id=235bc63b-48db-42a8-becb-12075f0d3987)
-[참고 - 시골개발자](https://www.youtube.com/watch?v=9_KIdQ8abH4)
-[참고 - 드림코딩by앨리](https://www.youtube.com/watch?v=EL6AQl-e3AQ)
+[원문 : boomerang velog](https://velog.io/write?id=235bc63b-48db-42a8-becb-12075f0d3987)<br>
+[참고 - 시골개발자](https://www.youtube.com/watch?v=9_KIdQ8abH4)<br>
+[참고 - 드림코딩by앨리](https://www.youtube.com/watch?v=EL6AQl-e3AQ)<br>
