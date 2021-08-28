@@ -11,20 +11,20 @@ man 명령어 : 옵션을 말해줌<br>
 man 3 함수or라이브러리 : 함수나 라이브러리 말해줌<br>
 open -a Atom a.c : open에서 -a flag를 사용하면 원하는 에디터로 열 수 있다. 
 
-<br>
+<br><br>
 
 **File**            
-\- rwx rwx rwx
-**directory**
-d rwx r-x r-x
-**Link**
+\- rwx rwx rwx  
+**directory**  
+d rwx r-x r-x  
+**Link**   
 l rwx r-- r--   
 <br>
 
-user group other<br>
-rwx rwx rwx<br>
-read, write, execute에<br>
-3bit 사용<br>
+user group other  
+rwx rwx rwx  
+read, write, execute에  
+3bit 사용  
 <br><br>
 
 <h2>모드 바꾸기</h2>
