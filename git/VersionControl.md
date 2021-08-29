@@ -55,7 +55,8 @@ git log
 
 <br>
 
-> 따로따로 파일을 staging area로 이동하게 한다. 
+> 따로따로 파일을 staging area로 이동하게 한다.   
+> ```git add .``` 하면 현재 directory에 있는 모든 파일들을 staging area로 가게함.
 
 <br>
 
