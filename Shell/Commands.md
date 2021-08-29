@@ -44,7 +44,6 @@ read, write, execute에
 <br></br>
 
 
-
 ```chmond g-x a.out```  
 
 * group의 execute권한 빼줌 
@@ -56,17 +55,26 @@ chmod u,g,o +- rwx 하면 된다.
 </br>
 
 <h2>경로</h2>
-<br>
-/ 가장 상위<br>
-/home/guest1 : 여기서 리눅스는 시작<br>
-/ 절대경로<br>
-./ 현재위치<br>
-../ 현재 위치 상위 (이전경로)<br>
- ~/ Home 위치 기준 <br>
 <br></br>
-절대경로 : cd /home/guest1/dir1<br>
-현재 경로 : cd ./dir1<br>
-홈 경로 : cd ~/dir1<br>
+
+```/```  : 가장 상위
+
+```/home/guest1```  : 여기서 리눅스는 시작 
+
+```/```  : 절대경로  
+
+```./```  : 현재위치  
+
+```../```  : 현재 위치 상위 (이전경로)  
+
+``` ~/```  : Home 위치 기준   
+<br></br>
+절대경로 : ```cd /home/guest1/dir1``` 
+
+현재 경로 : ```cd ./dir1```  
+
+홈 경로 : ```cd ~/dir1```  
+
 <br></br>
 
 
@@ -116,12 +124,11 @@ file2를 file3으로 복사한다.<br></br>
 
 <br></br>
 
-> 우리가 쓰는파일은 linkfile이다.
-inode로 filesytem이랑 연결해준다.  
+* 우리가 쓰는파일은 linkfile이다.  
+* inode로 filesytem이랑 연결해준다.  
 
-  
-> linkfile과  hardlink는 inode로 연결되어있다. 그리고 filesystem에는 reference값이 있어서   
-원본, 복사본과 같이 몇개의 파일이 filesystem과 linkfile에 연결되어있는지 알 수 있다.  
+* linkfile과  hardlink는 inode로 연결되어있다. 그리고 filesystem에는 reference값이 있어서   
+* 원본, 복사본과 같이 몇개의 파일이 filesystem과 linkfile에 연결되어있는지 알 수 있다.  
 
 <br></br>
 **softlink는 바로가기 만들기** 와 비슷한 개념.  
@@ -170,9 +177,11 @@ file1을 수정해도 myfile 바뀌고, myfile바뀌어도 file1바뀐다.
 <br></br>
 
 ```cat 파일이름``` : 파일 보여줌 (표준입력을 모니터라는 곳에 표줄출력)  
+<br></br>
+
 ```cat 파일이름 | more``` : 좀더 보기편하게 해줌 (```|```이게 파이프라인인데, 병렬로사용가능)  
 ```cat source > target``` : 덮어써줌.(복사처럼, 없으면 만들어줌)   
-```cat source >> target``` : 이어써줌<br>
+```cat source >> target``` : 이어써줌<br></br>
 ex) ```cat a.c > b.c```  
 
 이렇게 사용 가능.
@@ -188,12 +197,15 @@ ex) ```cat a.c > b.c```
 
 <h3>grep 명령어</h3>
 
-```grep 문자열 파일이름``` : 문자열 있는지 검색함  
+```grep 문자열 파일이름``` : 문자열 있는지 검색함 <br></br>
+
 ex) ```grep test \*.log```  
 
 > test  
 test2  
 ...  
+
+
 <br></br>
 
 ex) ```grep -H test \*.log``` : -H는 파일 이름도 보여주는 옵션  
@@ -203,14 +215,19 @@ system.log test2
 
 <br></br>
 
-ex) grep -Hw test1 \*.log : -w옵션은 정확히 그 이름 갖는거 찾는 옵션. <br>
-system.log test1<br>
-<br><br>
+ex)``` grep -Hw test1 \*.log``` : -w옵션은 정확히 그 이름 갖는거 찾는 옵션  
+> system.log test1  
+
+<br></br>
+
 <h3>less명령어</h3>
-<br>
-less filename<br>
-파일내용그냥 보는용도. for memory down<br>
-<br>
+
+```less filename```
+
+파일내용 보는용도 for memory down  
+
+<br></br>
+
 <h1>system관련 명령어</h1>
 <br>
 <h3>tar명령어</h3>
