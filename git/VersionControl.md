@@ -25,8 +25,7 @@ git status
 
 <br>
 
-> working directory에서 staging area(커밋전 중간단계)로 이동하지 않은 파일들 보여 준다.  
-그래서 ```git add .```를 해줘야지 그 폴더에 있는 모든 파일들이 staging area로 이동하게 된다.
+> working directory에서 staging area(커밋전 중간단계)로 이동하한 파일들 보여 준다.  
 
 <br>
 
