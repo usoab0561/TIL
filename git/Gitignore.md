@@ -1,7 +1,7 @@
 # gitignore
 
 원하지않는 파일 예를들어 secret key, api key.. etc 같은 것들을 무시하고 add하게 해준다  
-```.gitignore``` 파일인데 hidden file이다. (```ls -a``` command통해 terminal에서 볼 수 있다)
+```.gitignore``` 파일인데 hidden file이다. (```ls -a``` command통해 terminal에서 볼 수 있다) 
 
 <br></br>
 
