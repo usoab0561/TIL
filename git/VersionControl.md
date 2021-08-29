@@ -71,7 +71,7 @@ git diff 파일명
 <br>
 
 ```git checkout 파일명 ```
-
+ 
 <br>
 
 > 파일이 commit이나 add로 변했을때, 다시 원래 버젼으로 바꿔둘 수 있다. 
