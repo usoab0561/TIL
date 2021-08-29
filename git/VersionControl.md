@@ -1,6 +1,7 @@
 # VersionControl  
 <br></br>
-**Working Directory** -> **Statging Area** -> **Local Repository** <br><br>
+**Working Directory** -> **Statging Area** -> **Local Repository** <br></br>
+```git init```을 통해 Working Directory 설정하고,  
 ```git add```를 통해 Working Directory에서 Staging Area로 파일을 보내고,  
 ```git commit```을 통해 파일들을 Local Repository로 보낸다.  
 ```git checkout``` 을 통해서 Local Repository로 간 파일들을 revert할 수 있다. 
