@@ -1,44 +1,60 @@
 <h2>기본</h2>
-pwd : 지금 경로 확인<br>
-ls : 디렉토리<br>
-ls - l : 디렉토리 + 파일명<br>
-ls - al : 디렉토리 + 숨김파일<br>
-mkdir : 폴더만들기<br>
-touch : 파일 만들기<br>
-rm -f : 파일 지우기<br>
-rm -r : 디렉토리 지우기<br>
-man 명령어 : 옵션을 말해줌<br>
-man 3 함수or라이브러리 : 함수나 라이브러리 말해줌<br>
-open -a Atom a.c : open에서 -a flag를 사용하면 원하는 에디터로 열 수 있다. 
+  <br></br>
+  
+```pwd``` : 지금 경로 확인  
+```ls``` : 디렉토리  
+```ls -l``` : 디렉토리 + 파일명  
+```ls -al``` : 디렉토리 + 숨김파일  
+```mkdir``` : 폴더만들기  
+```touch``` : 파일 만들기  
+```rm -f``` : 파일 지우기  
+```rm -r``` : 디렉토리 지우기  
+```man 명령어``` : 명령어 옵션을 말해줌  
+```man 3 함수or라이브러리``` : 함수나 라이브러리 말해줌  
+```open -a Atom a.c``` : open에서 -a flag를 사용하면 원하는 에디터로 열 수 있다. 
 
-<br><br>
+<br></br>
 
-**File**            
+**File**        
 \- rwx rwx rwx  
+
 **directory**  
 d rwx r-x r-x  
+
 **Link**   
 l rwx r-- r--   
-<br>
 
+<br></br>
 user group other  
 rwx rwx rwx  
 read, write, execute에  
 3bit 사용  
-<br><br>
+<br></br>
 
-<h2>모드 바꾸기</h2>
-chmod 664 a.out<br>
--> rw- rw- r-- <br>
--> 왜? 3bit 사용하니까,<br>
-<br><br>
-6(110) 6(110) 4(100) -> rw- rw- r-- 됨.<br>
-비트로 하기 힘들면 <br>
-chmod u,g,o +- rwx<br>
-ex) chmond g-x a.out -> group의 execute권한 빼줌<br>
-<br>
+<h2>모드 바꾸기</h2><br></br>
 
+  
+```chmod 664 a.out```
+
+* rw- rw- r--   
+* 왜? 3bit 사용하니까,  
+* 6(110) 6(110) 4(100)
+* rw- rw- r-- 됨.  
+
+<br></br>
+
+
+
+```chmond g-x a.out```  
+
+* group의 execute권한 빼줌 
+
+> 비트로 권한을 주기 힘들면, 위 처럼   
+chmod u,g,o +- rwx 하면 된다.  
+ 
 <br>
+</br>
+
 <h2>경로</h2>
 <br>
 / 가장 상위<br>
@@ -47,75 +63,145 @@ ex) chmond g-x a.out -> group의 execute권한 빼줌<br>
 ./ 현재위치<br>
 ../ 현재 위치 상위 (이전경로)<br>
  ~/ Home 위치 기준 <br>
-<br><br>
+<br></br>
 절대경로 : cd /home/guest1/dir1<br>
 현재 경로 : cd ./dir1<br>
 홈 경로 : cd ~/dir1<br>
-<br><br>
+<br></br>
+
+
 <h2>mv명령어</h2><br>
-mv source destination<br>
+
+```mv source destination``` 
+
+source를 destination으로 옮긴다.<br></br>
+
+``` mv myfile ./dir2/.``` 
+
+_myfile을 현재폴더에 넣어라. 
+
+마지막에 ./은 의미없는 말이다. 
+
+하지만 그 뒤 마지막 .은 현재위치라는 뜻이고, 
+<br></br>
+
+``` mv myfile ./dir2/.myfile ```
+
+은 숨김파일이 된다  
+
+
+```mv myfile ./dir2/myfile2```
+
+은 내 파일 이름을 바꿀 수 있게 된다   
+
+<br></br>
+
+<h2>cp명령어 파일을 복사</h2>
+<br></br>
+
+```cp file2 file3```
+
+file2를 file3으로 복사한다.<br></br>  
+  
+```cp file2 ./dir2/myfile2``` 
+
+(file2를 dir2 디렉토리에 복사)
+  
+```cp -r dir2 dir3```
+
+(dir2를 dir3에 복사)
+
 <br><br>
-ex) mv myfile ./dir2/.<br>
-_myfile을 현재폴더에 넣어라. 마지막에 ./은 의미없는 말이다. 하지만 그 뒤 마지막 .은 현재위치라는 뜻이고, <br>
-ex) mv myfile ./dir2/.myfile 은 숨김파일이 된다<br>
-ex) mv myfile ./dir2/myfile2 은 내 파일 이름을 바꿀 수 있게 된다_<br>
-<br><br>
-<h2>cp명령어 파일을 복사</h2><br>
-<br>
-cp file2 file3 (file2를 file3으로 복사)<br>
-cp file2 ./dir2/myfile2 (file2를 dir2 디렉토리에 복사)<br>
-cp -r dir2 dir3 (dir2를 dir3에 복사)<br>
-<br><br>
-<h2>softlink(filesystem)&hardlink </h2><br>
-<br>
-우리가 쓰는거는 linkfile. inode로 filesytem이랑 연결해줌<br>
-linkfile과  hardlink는 inode로 연결되어있다. 그리고 filesystem에는 reference값이 있어서 <br>
-원본, 복사본과 같이 몇개의 파일이 filesystem과 linkfile에 연결되어있는지 알 수 있다.<br>
-<br><br>
-**softlink는 바로가기 만들기**같은거임.<br>
-그래서, **softlink는 linkfile을 다시 link**하는거임.<br>
-<br><br>
+<h2>softlink(filesystem)&hardlink </h2>
+
+<br></br>
+
+> 우리가 쓰는파일은 linkfile이다.
+inode로 filesytem이랑 연결해준다.  
+
+  
+> linkfile과  hardlink는 inode로 연결되어있다. 그리고 filesystem에는 reference값이 있어서   
+원본, 복사본과 같이 몇개의 파일이 filesystem과 linkfile에 연결되어있는지 알 수 있다.  
+
+<br></br>
+**softlink는 바로가기 만들기** 와 비슷한 개념.  
+**softlink는 linkfile을 다시 link**하는것.  
+
+<br></br>
+
 <h3>소프트링크방법</h3>
-<br>
-ln -s source target<br>
-ex) ln -s dir1 dir <br>
-ex) ln -s library.0.1.so library.so -> ln -s library.0.2.so library.so <br>
-이런식으로 소프트링크 할 수 있다. 그래서 개발자는 오픈소스 배포할때 library.so만 수정해도 됨.<br>
-<br><br>
+
+```ln -s source target```
+source를 target으로 softlink 한다.
+ 
+```ln -s dir1 dir```
+dir1을 dir2로 소프트링크를 한다.
+
+<br></br>
+
+```ln -s library.0.1.so library.so```
+
+0.1버전을 소프트링크 하고,  
+
+```ln -s library.0.2.so library.so```
+
+다시 0.2버전을 소프트링크한다.   
+
+즉 파일은 똑같은데 이런식으로 소프트링크 할 수 있다.  
+그래서 개발자는 오픈소스 배포할때 library.so만 수정해도 된다.
+
+<br></br>
+
 <h3>하드링크방법</h3>
-<br>
-ln source target<br>
-ls -li 로 하면 왼쪽에 inode가 표현이 된다.<br>
-ex) ln file1 myfile<br>
-file1을 수정해도 myfile 바뀌고, myfile바뀌어도 file1바뀜. <br>
-<br><br>
-<h3><span style= "color:red;">cat명령어</span></h3><br>
-<br>
-cat 파일이름 : 파일 보여줌 (표준입력을 모니터라는 곳에 표줄출력)<br>
-cat 파일이름 | more : 좀더 보기편하게 해줌 (|이게 파이프라인인데, 병렬로사용가능)<br>
-cat source > target : 덮어써줌.(복사처럼, 없으면 만들어줌)<br>
-cat source >> target : 이어써줌<br>
-ex) cat a.c > b.c<br>
-<br><br>
+
+```ln source target```
+<br></br>
+
+```ls -li``` 로 하면 왼쪽에 inode가 표현이 된다.   
+
+```ln file1 myfile```
+
+file1을 수정해도 myfile 바뀌고, myfile바뀌어도 file1바뀐다.
+
+<br></br>
+
+<h3><span style= "color:red;">cat명령어</span></h3>  
+
+<br></br>
+
+```cat 파일이름``` : 파일 보여줌 (표준입력을 모니터라는 곳에 표줄출력)  
+```cat 파일이름 | more``` : 좀더 보기편하게 해줌 (```|```이게 파이프라인인데, 병렬로사용가능)  
+```cat source > target``` : 덮어써줌.(복사처럼, 없으면 만들어줌)   
+```cat source >> target``` : 이어써줌<br>
+ex) ```cat a.c > b.c```  
+
+이렇게 사용 가능.
+
+<br></br>
+
 <h3>head&tail 명령어</h3>
-<br>
-head filename : 앞 10라인 보여줌<br>
-tail filename : 뒤 10라인 보여줌<br>
-tail -f filename : 변화하면 나타남. 로그데이터 보여줄때 자주사용<br>
-<br><br>
+
+```head filename``` : 앞 10라인 보여줌<br>
+```tail filename``` : 뒤 10라인 보여줌<br>
+```tail -f filename``` : 변화하면 나타남. 로그데이터 보여줄때 자주사용<br>
+<br></br>
+
 <h3>grep 명령어</h3>
-<br>
-grep 문자열 파일이름 : 문자열 있는지 검색함<br>
-ex) grep test \*.log<br>
-test<br>
-test2<br>
-...<br>
-<br><br>
-ex) grep -H test \*.log : -H는 파일 이름도 보여주는 옵션<br>
-system.log test<br>
-system.log test2<br>
-...<br>
-<br><br>
+
+```grep 문자열 파일이름``` : 문자열 있는지 검색함  
+ex) ```grep test \*.log```  
+
+> test  
+test2  
+...  
+<br></br>
+
+ex) ```grep -H test \*.log``` : -H는 파일 이름도 보여주는 옵션  
+> system.log test  
+system.log test2  
+...  
+
+<br></br>
 
 ex) grep -Hw test1 \*.log : -w옵션은 정확히 그 이름 갖는거 찾는 옵션. <br>
 system.log test1<br>
