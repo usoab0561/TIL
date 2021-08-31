@@ -2,7 +2,7 @@
 
 **Wokring Directory** -> **Staging Area** -> **Local Repository** -> **Remote Repository**  
 
-Cloning을 한다는 것은, 특정 Remote Repository에서 단계별로 commit 되어있는 것들과 version들을  
+Cloning을 한다는 것은, 특정 **Remote Repository에서** 단계별로 commit 되어있는 것들과 version들을  
 ```git clone``` 명령을 통해  Woriking Directory로 pull down 하여 **파일에 저장하는 것**이다.  
 
 <br>
