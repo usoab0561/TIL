@@ -37,7 +37,7 @@ premade collection of useful gitignore templetes
 ```git rm --cached -r .```
 
 _rm --cached는 statging area에 있는 모든 파일들을 지운다._   
-_-r은 recursive한 것이고, _     
-_.은 현재 폴더에 있다는 말. _  
+_-r은 recursive한 것이고,_     
+_.은 현재 폴더에 있다는 말_  
 
 
