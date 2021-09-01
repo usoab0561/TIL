@@ -23,9 +23,9 @@ Secrets.txt
 *.txt #txt 파일은 모두 무시
 ```
 
-### etc
-
 <br>
+
+## etc
 
 [gitignore - github](github.com/github/gitignore)  
 <br>
@@ -33,6 +33,9 @@ premade collection of useful gitignore templetes
 그래서 swift .gitignore을 검색하거나, object-C를 검색해서 그냥 copy하고 우리의 Xcode gitignore파일에 넣어도 됨
 
 <br>
+
+<hr></hr>
+
 
 ```git rm --cached -r .```
 
