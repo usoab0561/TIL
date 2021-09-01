@@ -19,13 +19,13 @@ git init
 
 <br>
 
-```
-git status
-```
+```git add 파일명```
 
 <br>
 
-> working directory에서 staging area(커밋전 중간단계)로 이동하한 파일들 보여 준다.  
+> 따로따로 파일을 staging area로 이동하게 한다.   
+> ```git add .``` 하면 현재 directory에 있는 모든 파일들을 staging area로 가게함.
+
 
 <br>
 
@@ -41,23 +41,26 @@ git commit -m "Whatever You Want"
 <br>
 
 ```
+git status
+```
+
+<br>
+
+> working directory에서 staging area(커밋전 중간단계)로 이동한 파일들 보여 준다.  
+
+<br>
+
+```
 git log
 ```
 
 <br>
 
-> 깃허브 로그를 보여준다.
+> git의 버전에 대한 로그를 보여준다. project history.  
+> It lets you list the project history, filter it, and search for specific changes.
 
 <br>
 
-```git add 파일명```
-
-<br>
-
-> 따로따로 파일을 staging area로 이동하게 한다.   
-> ```git add .``` 하면 현재 directory에 있는 모든 파일들을 staging area로 가게함.
-
-<br>
 
 ```
 git diff 파일명
