@@ -14,9 +14,9 @@
 
 ### Shell
 * [Commands](https://github.com/usoab0561/TIL/blob/main/Shell/Commands.md)
+* [Variable](https://github.com/usoab0561/TIL/blob/master/Shell/Variable.md)
 * [Makefile](https://github.com/usoab0561/TIL/blob/main/Shell/Makefile.md)
 * [ShellScript](https://github.com/usoab0561/TIL/blob/main/Shell/ShellScirpt.md)
-
 
 ### git
 * [1. VersionControl](https://github.com/usoab0561/TIL/blob/main/git/1.%20VersionControl.md)
