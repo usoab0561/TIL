@@ -9,7 +9,7 @@
 * [git](https://github.com/usoab0561/TIL/blob/main/README.md#git)
 * [iOS](https://github.com/usoab0561/TIL/blob/main/README.md#ios)
 * [swift](https://github.com/usoab0561/TIL/blob/main/README.md#swift)  
-
+* [etc](https://github.com/usoab0561/TIL/blob/master/etc/Vim.md)
 <hr>
 
 ### Shell
@@ -33,6 +33,9 @@
 
 ### swift
 * [ForLoops](https://github.com/usoab0561/TIL/blob/main/swift/ForLoops.md)
+
+### etc
+* [Vim](https://github.com/usoab0561/TIL/blob/master/etc/Vim.md)
 
 <hr>
 
