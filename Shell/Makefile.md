@@ -269,6 +269,65 @@ clean:
 
 <br>
 
+## 매크로치환 (Macro substitution)
+> 매크로를 지정하고, 필요에 의해 매크로 내용을 조금만 바꿔서 쓸때 사용  
+
+``` $(MACRO_NAME:OLD=NEW)``` 같이 형식을 쓰면 된다  
+<br>
+
+ex)  
+```
+MY_NAME = Michel Jackson
+YOUR_NAME = $(NAME: Jack=Jook)
+```  
+위 처럼 사용하면 Jack 부분이 Jook으로 바뀜  
+```
+OBJS = main.o read.o write.o
+SRCS = $(OBJS:.o=.c)
+```
+
+## 꼬리말 규칙, 패턴 규칙
+
+```
+.c.o:
+  gcc -c $(CFLAGS} $<
+```
+  
+여기에서 .c.o 는 c를 입력파일로 받고, o파일로 만든다는 말인데,   
+
+```<```는 유닉스에서 redirection이다. 즉, c파일을 입력받는다는 말   
+
+즉, ```gcc -c $(CFLAGS) example1.c example2.c ``` 처럼 된다.
+
+
+## ar, ranlib
+
+<br>
+
+> ```ar``` Static Library를 만들 때 사용.  
+
+``` ar -rcs ```   
+__r__ : 지정한 archive로 obj 파일 추가.  
+__c__ : archive(library file) 생성  
+__s__ : archive index 생성(속도향상)(ranlib과 같음)    
+<br>  
+사용 예시 : ``` ar -rcs library.a *.o``` 
+<br>  
+동적(공유)라이브러리에 비해 실행 속도가 빠르고 배포에 제약이 없음  
+
+- 다만, 해당 라이브러리를 필요로 하는 모든 경우 같은 정적 라이브러리가 링크되기 때문에 배포 파일들의 사이즈가 커짐  
+- 그러므로 하드디스크 공간도 더 차지하고 메모리도 더 많이 차지함  
+  
+__확장자별 라이브러리 종류__
+
+
+*.a: 리눅스/정적 라이브러리  
+*.so: 리눅스/동적라이브러리  
+*.lib: 윈도우/정적라이브러리  
+*.dll: 윈도우/동적라이브러리    
+<br>  
+[라이브러리 참고](https://jasonjason.tistory.com/15)
+
 ## etc
 
 <br>
@@ -284,8 +343,28 @@ make // 전체파일 Makefile에 따라 바꿔줌
 touch main.c // time stamp 변해서 main.c가 컴파일러는 수정되었다고 인식
 
 make // main.c 파일만 Makefile에 따라 컴파일해주고 binary(실행파일을) 만들어줌.
-```
 
-<br> 
+```  
+
+<br></br>
+
+> ``` -Wall -Wextar -Werror``` CFlAGS인데  
+  
+Wall : 모든 모호한 코딩에 대해서 경고  
+Wextra : Wall에 의해 활성화되지 않는 추가적인 에러 검출  
+Werror : 모든 경고를 컴파일을 중단하는 에러로 취급해서 경고 하나만 나와도 컴파일 중단.  
+
+<br></br>
+
+> ```gcc -include``` 또는 ```gcc -I``` 옵션 : 헤더 파일을 소스내에 추가할 때 사용한다.  
+보통 
+```
+.c.o:
+	${CC} ${CFLAGS} -c $< -o ${<:.c=.o} -I includes
+``` 
+
+  라고 사용해서 includes파일에서 header파일 가져온다  
+
+<br></br>
 
 [Makefile 참고](https://www.youtube.com/watch?v=jnJL6ppn26Q)
