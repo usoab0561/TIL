@@ -9,7 +9,7 @@
 * [git](https://github.com/usoab0561/TIL/blob/main/README.md#git)
 * [iOS](https://github.com/usoab0561/TIL/blob/main/README.md#ios)
 * [swift](https://github.com/usoab0561/TIL/blob/main/README.md#swift)  
-* [etc](https://github.com/usoab0561/TIL/blob/master/etc/Vim.md)
+* [etc](https://github.com/usoab0561/TIL/blob/main/README.md#etc)
 <hr>
 
 ### Shell
