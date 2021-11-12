@@ -9,7 +9,7 @@
 * [git](https://github.com/usoab0561/TIL/blob/main/README.md#git)
 * [iOS](https://github.com/usoab0561/TIL/blob/main/README.md#ios)
 * [swift](https://github.com/usoab0561/TIL/blob/main/README.md#swift)  
-* [etc](https://github.com/usoab0561/TIL/blob/main/README.md#etc)
+* [vim](https://github.com/usoab0561/TIL/blob/main/README.md#vim)
 
 ![Blog](https://img.shields.io/github/commit-activity/m/usoab0561/TIL)
  
