@@ -5,9 +5,9 @@
 <hr>
 
 ### Categories
-*  [Shell](https://github.com/usoab0561/TIL/tree/master/shell)
+*  [Shell](https://github.com/usoab0561/TIL/tree/master/Shell)
 * [git](https://github.com/usoab0561/TIL/tree/master/git)
-* [iOS](https://github.com/usoab0561/TIL/tree/master/ios)
+* [iOS](https://github.com/usoab0561/TIL/tree/master/iOS)
 * [swift](https://github.com/usoab0561/TIL/tree/master/swift)  
 * [vim](https://github.com/usoab0561/TIL/tree/master/vim)
 
