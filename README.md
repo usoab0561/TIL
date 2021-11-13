@@ -5,10 +5,11 @@
 <hr>
 
 ### Categories
-*  [Shell](https://github.com/usoab0561/TIL/tree/master/Shell)
-* [git](https://github.com/usoab0561/TIL/tree/master/git)
-* [iOS](https://github.com/usoab0561/TIL/tree/master/iOS)
+* [algorithm](https://github.com/usoab0561/TIL/tree/master/algorithm)
 * [swift](https://github.com/usoab0561/TIL/tree/master/swift)  
+* [iOS](https://github.com/usoab0561/TIL/tree/master/iOS)
+* [Shell](https://github.com/usoab0561/TIL/tree/master/Shell)
+* [git](https://github.com/usoab0561/TIL/tree/master/git)
 * [vim](https://github.com/usoab0561/TIL/tree/master/vim)
 
 ![Blog](https://img.shields.io/github/commit-activity/m/usoab0561/TIL)
