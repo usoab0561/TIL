@@ -94,3 +94,5 @@ unwrapped = 3
 
 콤마는 condition을 이어붙이는 용도로 쓰는 것이고 &&는 두개의 boolean expression을 파라미터로 받는 논리 연산자이다.  
 [참고](https://soojin.ro/blog/swift-comma-vs-and-operator)
+
+http://seorenn.blogspot.com/2016/05/swift-assertion.html
