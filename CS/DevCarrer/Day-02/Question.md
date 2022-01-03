@@ -5,9 +5,9 @@
 <hr>
 
 ## final키워드와 finally, finalize의 차이점을 말해주세요  
-final은 상수처럼  
-finally는 try-catch 블록 뒤에 끝나기전에 항상 꼭 실행되어야하는 로직이 있을 경우  
-java garbage collector가 더 이상의 참조가 존재하지 않는 객체를 발견한 순간 호출하는 메서드  
+final : 상수처럼  
+finally : try-catch 블록 뒤에 끝나기전에 항상 꼭 실행되어야하는 로직이 있을 경우  
+finalize : java garbage collector가 더 이상의 참조가 존재하지 않는 객체를 발견한 순간 호출하는 메서드  
 
 <hr>
 
@@ -34,10 +34,10 @@ NPE(NullPointerException)을 방지할 수 있도록 해주는 Wrapper 클래스
 <hr>
 
 ## 자바 static키워드의 생성시기와 소멸시기를 설명해주세요
-static은 같은 클래스에 있는 경우 _같은 메모리 주소_를 바라봄  
+static은 같은 클래스에 있는 경우 *같은 메모리 주소*를 바라봄  
 
-> static 키워드를 사용하면 _객체가 생성되는 시점이 아닌_ _Class Loader 가 클래스를 Load 할 때_ Data 영역에 메모리가 할당되게 된다.
-> 이 영역은 같은 유형의 클래스마다 공유되며 _Process 가 종료되는 시점에서 해제_되므로 static 키워드의 생명주기 역시 Class Load 시 생성되고 Process 종료 시 해제되게 된다.
+> static 키워드를 사용하면 *객체가 생성되는 시점이 아닌* *Class Loader 가 클래스를 Load 할 때* Data 영역에 메모리가 할당되게 된다.
+> 이 영역은 같은 유형의 클래스마다 공유되며 *Process 가 종료되는 시점에서 해제* 되므로 static 키워드의 생명주기 역시 Class Load 시 생성되고 Process 종료 시 해제되게 된다.
 
 <hr>
 
