@@ -33,6 +33,6 @@
 > new String()으로 생성할때는 heap영역에 각각 다른 메모리 만들고 참조. 리터럴로하면 같은거 참조  
 
 ## 자바의 Wrapper class에 대해 설명해주세요 & boxing과 unboxing에 대해 설명해주세요
-> 기본타입을 가진 클래스 (Byte, Character..)
-> Boxing : 기본타입에서 Wrapper class
-> UnBoxing : Wrapper class에서 기본타입  
+> 기본타입을 가진 클래스 (Byte, Character..)  
+> Boxing : 기본타입에서 Wrapper class  
+> UnBoxing : Wrapper class에서 기본타입    
