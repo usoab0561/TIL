@@ -55,17 +55,22 @@
 <hr>
 
 ## 자바에서 싱글톤 패턴을 구현하는 방법은? (3가지중에서 최적의 방법)
+> Bill Pugh Singleton Implementaion  
 
 <hr>
 
 ## 자바의 접근제한자에 대해 설명해주세요
+![image](https://user-images.githubusercontent.com/84604563/147925391-95c73d4b-7848-4f9e-af48-04b5adbc0927.png)
 
 <hr>
 
 ## 파이썬은 접근제한자가 없는데 어떻게 구현해야하나요?
+> ```_``` underscore로 확인 가능  
 
 <hr>
 
 ## 자바의 추상클래스와 인터페이스의 차이점에 대해 설명해주세요
+> 추상클래스 : 선언부는 있는데 구현부가 없는 메소드, 상속```extends```을 통해서 사용    
+> 인터페이스 : 상속관계가 아니라, 필요한 기능 확장해서 사용```implements```(Serializable: 직렬화할 수 있는, Comparable: 비교할 수 있는, Runnable: 실행할 수 있는)   
 
 <hr>
