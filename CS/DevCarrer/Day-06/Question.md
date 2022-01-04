@@ -3,9 +3,9 @@
 ## TCP 3way handshaking과 4way handshaking의 차이를 설명해주세요
 ![image](https://user-images.githubusercontent.com/84604563/148037304-2c89110d-e337-4527-9e6e-d21729433b93.png)
 
-> 연결을 설정(Connection Establish) 하는 과정
+> 연결을 설정(Connection Establish) 하는 과정  
 > 3way handshaking : 연결하는 과정. 1. A->B : SYN보내기 2. B->A : SYN + ACK(연결해줘) 3. A->B : ACK (데이터도같이ㄱㄴ)  
-> 4way handshaking : 끊는 과정 : 1. A->B : FIN보내기 2. B->A : ACK(이거까지보낼게, Time wait) 3. B->A : FIN (끝. 다보냈다) 4. A->B (알겠다.)
+> 4way handshaking : 끊는 과정 : 1. A->B : FIN보내기 2. B->A : ACK(이거까지보낼게, Time wait) 3. B->A : FIN (끝. 다보냈다) 4. A->B ACK(알겠다.)
 
 TCP : 전송 계층에서 사용하는 프로토콜. 신뢰성을 보장하는 연결형 서비스.  
 ![image](https://user-images.githubusercontent.com/84604563/148037557-0f96961b-b760-4c34-96a3-6e530e982fe6.png)
@@ -49,8 +49,11 @@ TCP : 전송 계층에서 사용하는 프로토콜. 신뢰성을 보장하는 �
 <hr>
 
 ## HTTP Get과 Post의 차이점에 대해 설명해주세요
-> Get : GET은 서버로부터 정보를 조회하기 위해 설계된 메소드 ```www.example-url.com/resources?name1=value1&name2=value2 ?표 붙히고 정보다보임```
-> Post : 리소스를 생성/변경하기 위해 설계, ```HTTP 메세지의 Body에 담아서 전송. HTTP 메세지의 Body는 길이의 제한없이 데이터를 전송. GET보단안전.```
+> Get : GET은 서버로부터 정보를 조회하기 위해 설계된 메소드  
+>  ```www.example-url.com/resources?name1=value1&name2=value2 ?표 붙히고 정보다보임```  
+> <br>
+> Post : 리소스를 생성/변경하기 위해 설계,  
+> ```HTTP 메세지의 Body에 담아서 전송. HTTP 메세지의 Body는 길이의 제한없이 데이터를 전송. GET보단안전.```  
 
 <hr>
 <hr>
@@ -65,16 +68,16 @@ TCP : 전송 계층에서 사용하는 프로토콜. 신뢰성을 보장하는 �
 
 ## HTTP와 HTTPS의 차이점에 대해 설명해주세요
 > HTTPS(Hyper Text Transfer Protocol Secure)는 HTTP와 다르게 443번 포트를 사용
-> SSL에서 TSL로 변화. 802.X 따라서 Dieffie Hellman이나 RSA방식으로 암호화함.  
+> SSL에서 TSL로 변화. 802.X 따라서 Dieffie Hellman(비밀키)이나 RSA(공개키)방식으로 암호화함.  
 
 <hr>
 <hr>
 
 ## IPv6의 특징에 대해 설명해주세요 (5가지)
-> IPv4인 32비트 주소체계에서 128비트 즉 2^128비트 주소공간 제공  
-> 호스트 주소 자동 설정  
-> 패킷(데이터전달하는블록) 크기 확장  
-> 효율적인 라우팅(전송시 최적경로)  
-> 인증, 보안  
+> 주소확장. 32비트 -> 128비트 (2^128비트, IPv4는 2^32비트) 
+> 패킷(데이터전달하는블록) 크기 확장.  
+> 호스트 주소 자동 설정.  
+> 효율적인 라우팅(전송시 최적경로).  
+> 인증, 보안.  
 
 
