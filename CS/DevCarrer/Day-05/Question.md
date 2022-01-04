@@ -8,11 +8,13 @@
 
 <hr>
 
-## 관계형 데이터베이스와 비관계형 데이터베이스에 대해 설명해주세요
+## 관계형 데이터베이스(RDBMS)와 비관계형 데이터베이스(Nosql)에 대해 설명해주세요
 
 ![image](https://user-images.githubusercontent.com/84604563/147942693-f17692de-0353-4578-a92e-bcb75a2ba84b.png)
 
 (스키마 : entity, relation, attribute 있는거)   
+RDBMS : Oracle, Sqlite  
+Nosql : Mongodb .. etc  
 
 ![image](https://user-images.githubusercontent.com/84604563/147942855-e6ddcfb6-08c9-4186-9ad2-95fdf6dc4b03.png)
 
@@ -20,10 +22,10 @@
 
 ## 트랜잭션에 대해 설명해주세요 & 트랜잭션 ACID에 대해 설명해주세요
 > db연산 단위, 모아둔것   
-> 원자성 Atomi.. : 실행되다가 중단되지 않는 것을 보장  
-> 일관성 Consistan...: 일관성 있는 데이터베이스 상태로 유지  
-> 고립성 Isolat...: 다른 작업이 끼어들지 못하도록 보장  
-> 지속성 Durabili...: 영원히 반영됨  
+> 원자성 Atomicity : 실행되다가 *중단*되지 않는 것을 보장  
+> 일관성 Consistency : *일관성* 있는 데이터베이스 상태로 유지  
+> 고립성 Isolation : 다른 작업이 *끼어들지 못하도록* 보장  
+> 지속성 Durability : *영원히* 반영됨  
 
 <hr>
 
@@ -58,5 +60,5 @@
 <hr>
 
 ## DB정규화에 대해 설명해주세요 & 정규화의 목적은 무엇인가요?
-> 테이블 간에 중복된 데이타를 허용하지 않는다는 것 -> 무결성 유지, DB저장 용량 줄어듬  
-> 1,2,3,BCNF....... 공부 ...  
+> 테이블 간에 중복된 데이타를 허용하지 않는다는 것 -> 무결성(정확성) 유지, DB저장 용량 줄어듬  
+> 1,2,3,BCNF....... 공부 ... 까먹음   
