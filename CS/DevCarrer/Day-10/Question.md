@@ -32,7 +32,16 @@
 <br>
 
 ## 가상 돔이란 무엇인가요? 이러한 개념이 등장한 이유는?
-![image](https://user-images.githubusercontent.com/84604563/148254187-a3c345ce-0dcd-461e-af5b-c649d84b64a4.png)
+
+![image](https://user-images.githubusercontent.com/84604563/148254187-a3c345ce-0dcd-461e-af5b-c649d84b64a4.png)  
+
+돔 :  HTML 웹 페이지를 인식하는 방식을 계층화시켜 트리구조로 만든 객체(Object) 모델  
+
+<br>
+
+![image](https://user-images.githubusercontent.com/84604563/148362412-15f00088-43f4-4309-ab1f-96db0847736c.png)
+
+가상돔 : 변경된 내용만 DOM에 적용  
 
 <br>
 
