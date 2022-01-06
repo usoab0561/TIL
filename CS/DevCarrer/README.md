@@ -1,6 +1,3 @@
-# DevCarrer
-* 개발자 면접대비, 몇개만 요약
-
 # 자료구조 & 알고리즘
 
 ## 구구단, 이진탐색, 퀵소트 시간복잡도
@@ -77,5 +74,4 @@ HTTP Method (get post put patch delete).. 에서 rest 규칙따라 설계.
 
 [질문출처 : https://garden1500.tistory.com/m/11]
 [질문출처 : 개발자 단톡방]
-
 
