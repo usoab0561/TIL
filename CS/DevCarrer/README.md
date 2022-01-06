@@ -119,8 +119,8 @@ Nosql : Mongodb .. etc
 ![image](https://user-images.githubusercontent.com/84604563/147942855-e6ddcfb6-08c9-4186-9ad2-95fdf6dc4b03.png)
 
 ## DB 인덱스 , 인덱스 거는이유, 인덱스에 왜 해쉬 보다 B Tree를 쓰는지?
-> index는 자주 나오지 않게 unique한걸로, 빨리참조하려고  
-> 성별은 자주나와서 성능 저하, 주민등록번호로 해야지 
+> index는 자주 나오지 않게 unique한걸로, 빨리참조하려고    
+> 성별은 자주나와서 성능 저하, 주민등록번호로 해야지   
 > 비교연산자  
 
 ## DB 정규화, 비정규화(역정규화)
