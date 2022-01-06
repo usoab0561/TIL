@@ -1,3 +1,5 @@
+# 몇개 추려서 정리.
+
 # 자료구조 & 알고리즘
 
 ## 구구단, 이진탐색, 퀵소트 시간복잡도
@@ -29,24 +31,59 @@
 selection sort, insertion sort, bubble sort, shell sort(insertion + gap O(n root n)), merge sort(divide conquer), quick sort, heap sort, radix sort
 
 # 네트워크 
-## HTTP, HTTPS(TLS(SSL))/ HTTP RESTFUL / HTTP 응답코드 외우기
+## HTTP/ HTTPS(TLS(SSL))/ HTTP RESTFUL / HTTP 응답코드 외우기
 Hyper Text Transfer Protocol  
-SSL -> TSL 로 발전. Diffie Hellman(mod, secret key) -> RSA (Public Key), 443 port.      
-HTTP Method (get post put patch delete).. 에서 rest 규칙따라 설계. 
-401(아이디없음[허가x]), 403(로그인됐지만 안됨[금지])  
+SSL -> TSL 로 발전. Diffie Hellman(mod, secret key) -> RSA (Public Key), 443 port.        
+HTTP Method (get post put patch delete).. 에서 rest 규칙따라 설계.  
+401(아이디없음[허가x]), 403(로그인됐지만 안됨[금지])   
+
+## HTTP 메소드의 get과 post의 차이
 
 ## 웹브라우저에 google.com 치면 일어나는 과정
+![image](https://user-images.githubusercontent.com/84604563/148233180-84a48060-cdc2-43d6-a510-fdcb997627c6.png)
 
-## OS 스레드 , 프로세스 차이(멀티스레드와 멀티프로세스차이, PCB)
+1. domain name을 입력하면 DNS를 통해서 그에 맞는 IP주소 알아냄  
+2. HTTP를 통해서 그 IP주소와 입력한 url같이 TCP프로토콜 사용, 인터넷으로 서버로 보냄   
+3. HTTP 요청 해석해서 정보가져와서, 다시 HTTP 응답. TCP프로토콜사용, 인터넷으로 클라이언트로 보냄  
+4. HTTP 요청 해석해서 클라이언트에 보여줌   
+
 
 ## TCP vs UDP (TCP, UDP 특성)
+> TCP/IP 4계층에서 transport layer에 있는게 TCP. (어떻게 정보를 주고받을것인가?)  
+![image](https://user-images.githubusercontent.com/84604563/148231745-1b7e4b81-44ac-486a-ac38-77305e08cef3.png)
+
+<img width="751" alt="Screen Shot 2022-01-05 at 11 17 46 PM" src="https://user-images.githubusercontent.com/84604563/148232436-c334a590-8fbc-43b5-8d73-95706b676f7f.png">
+
+## TCP의 3way handshaking과 4way handshaking 과정을 그려주세요
+
+TCP : 전송 계층에서 사용하는 프로토콜. 신뢰성을 보장하는 연결형 서비스.  
+![image](https://user-images.githubusercontent.com/84604563/148037557-0f96961b-b760-4c34-96a3-6e530e982fe6.png)
+
+> 연결을 설정(Connection Establish) 하는 과정  
+> 3way handshaking : 연결하는 과정. 1. A->B : SYN보내기 2. B->A : SYN + ACK(연결해줘) 3. A->B : ACK (데이터도같이ㄱㄴ)  
+> 4way handshaking : 끊는 과정 : 1. A->B : FIN보내기 2. B->A : ACK(이거까지보낼게, Time wait) 3. B->A : FIN (끝. 다보냈다) 4. A->B ACK(알겠다.)
 
 ## OSI 계층 말하기(각각 알려진 유명 프로토콜)
+![image](https://user-images.githubusercontent.com/84604563/148037304-2c89110d-e337-4527-9e6e-d21729433b93.png)
+
+## 프록시 서버란 무엇인가요? 포워드 프록시와 리버스 프록시에 대해 설명해주세요  
+> Proxy server :   
+> 다른 네트워크 서비스에 간접적으로 접속할 수 있게해주는것. 
+
+<br> 
+
+> 포워드 프록시 서버 : 포워드프록시서버가 요청을 받고 인터넷에 연결하여 결과를 클라이언트에 전달 (forward) 해준다  
+> ![image](https://user-images.githubusercontent.com/84604563/148227774-242eb816-e0c8-4c23-819f-436880a2973a.png)
+
+> 리버스 프록시 서버 : 클라이언트가 인터넷에 데이터를 요청하면 리버스 프록시가 이 요청을 받아 내부 서버에서 데이터를 받은 후 클라이언트에 전달한다.
+> ![image](https://user-images.githubusercontent.com/84604563/148227801-be30a292-9ede-4f58-98a5-0a5d2f7c63df.png)
+
 
 # DB
 
 ## DB 트랙잭션과 트랙잭션 특성 4가지
 
+## NoSQL, RDBMS
 
 ## DB 인덱스 , 인덱스 거는이유, 인덱스에 왜 해쉬 보다 B Tree를 쓰는지?
 
@@ -62,6 +99,8 @@ HTTP Method (get post put patch delete).. 에서 rest 규칙따라 설계.
 
 
 # OS
+
+## OS 스레드 , 프로세스 차이(멀티스레드와 멀티프로세스차이, PCB)
 
 ## 세그멘테이션, 페이징 (내부단편화 ,외부단편화)
 
