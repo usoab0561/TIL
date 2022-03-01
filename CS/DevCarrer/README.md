@@ -504,6 +504,11 @@ console.log(foo); // 456
 
 <hr>
 
+## DOM이란 
+> DOM은 Document Object Model의 약자(문서객채모델)  
+> 문서객채모델이란 <html>이나 <body> 같은 html문서의 태그들을 JavaScript가 이용할 수 있는 객체(object)로 만드는것.  
+> 넓은 의미로 웹 브라우저가 HTML 페이지를 인식하는 방식을, 좁은 의미로 document 객체와 관련된 객체의 집합.	
+	
 ## DOM을 건드리는 방식과 아닌 방식들의 차이  
 
 > 직접 DOM을 건드리는 경우 DOM의 구조를 파악하고 있어야하며, 클래스명이다 태그명이 바뀌는 경우 다시 DOM을 변경해야한다.  
