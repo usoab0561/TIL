@@ -618,6 +618,7 @@ heap - 동적할당
 
 # 마지막으로 직무 관련 공부, 포트폴리오 문제.
 
-[질문출처 : https://garden1500.tistory.com/m/11]  
-[질문출처 : 개발자 단톡방]
-[질문출처 : https://sunnykim91.tistory.com/121]
+[질문출처 : https://garden1500.tistory.com/m/11]   
+[질문출처 : https://sunnykim91.tistory.com/121]   
+[질문출처 : 개발자 단톡방]  
+
