@@ -150,9 +150,6 @@ Nosql : Mongodb .. etc
 ## 자바에서 Runnable인터페이스와 Thread 클래스의 차이점을 설명해주세요 & 이렇게 두가지 방법이 지원되는 이유를 설명해주세요
 > Thread 클래스를 상속받으면 다른 클래스를 상속받을 수 없기 때문에 , Runnable 인터페이스를 구현하는 것이 일반적이다.  
 > Thread는 간단, Runnable은 확장성이 좋음 
-## 가비지 콜렉터의 동작과정을 설명해주세요
-> Stop The World : GC 제외 모든 쓰레드 멈춘다.  
-> Mark and Sweep : 사용되고 있는 메모리를 식별하는데, 이러한 과정을 Mark라고 한다. Mark가 되지 않은 객체들을 메모리에서 제거하는데, 이러한 과정을 Sweep라고 한다.  
 
 <hr>
 
