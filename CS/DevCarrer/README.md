@@ -580,6 +580,52 @@ console.log(a.a) // 1
 <hr>
 
  
+## 자바스크립트 호이스팅에 대해 말해주세요 &  자바스크립트 var, let, const의 차이에 대해 말해주세요
+ > 인터프리터가 변수와 함수의 메모리 공간을 선언 전에 미리 할당하는 것을 의미  
+ > var은 undefined로 호이스팅. 반면 let과 const는 x  
+
+<br>
+
+## 콜백 함수란 무엇인가요? & 콜백함수의 문제점과 해결책은 무엇인가요?  
+> CallBack 함수란 이름 그대로 나중에 호출되는 함수를 말한다.비동기 위함.   
+> 지저분할 수 있다. nested돼서. -> promise, async, await로 해결   
+
+<br>
+
+## Ajax란 무엇인가요?
+> Asynchronous Javascript And Xml(비동기식 자바스크립트와 xml)의 약자    
+자바스크립트를 이용해 서버와 브라우저가 비동기 방식으로 데이터를 교환할 수 있는 통신 기능  
+
+<br>
+
+## 가상 돔이란 무엇인가요? 이러한 개념이 등장한 이유는?
+
+![image](https://user-images.githubusercontent.com/84604563/148254187-a3c345ce-0dcd-461e-af5b-c649d84b64a4.png)  
+
+돔 :  HTML 웹 페이지를 인식하는 방식을 계층화시켜 트리구조로 만든 객체(Object) 모델  
+
+<br>
+
+![image](https://user-images.githubusercontent.com/84604563/148362412-15f00088-43f4-4309-ab1f-96db0847736c.png)
+
+가상돔 : 변경된 내용만 DOM에 적용  
+
+<br>
+
+## SPA란 무엇인가요?
+> 과거 : 요소를 한번 클릭하면 완전히 새로운 페이지를 서버에서 전송 용량 너무커짐   
+> 그래서 SPA (Single Page Application) : 전체 페이지를 하나의 페이지에 담아 동적으로 화면을 바꿔가며 표현  
+
+<br>
+
+## MVVM 패턴에 대해 설명해주세요
+![image](https://user-images.githubusercontent.com/84604563/148255070-65b3570b-0951-44ea-b224-405a3b01351d.png)
+* Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분  
+* View : UI 부분  
+* View Model : View를 표현하기 위해 만든 View를 위한 Model입니다. (View를 나타내 주기 위한 Model이자 View를 나타내기 위한 데이터 처리를 하는 부분)    
+
+<br>
+	
 # OS
 
 ## OS 스레드 , 프로세스 차이
