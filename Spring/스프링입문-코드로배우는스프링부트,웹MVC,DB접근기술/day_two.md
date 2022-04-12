@@ -22,4 +22,5 @@ ORM : 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑
 
 JPA(JAVA PERSISTENCE API) : 자바 진영에서 만든 ORM 기술 표준 (CRUD SQL을 작성할 필요가 없다.)  
 
-https://mangkyu.tistory.com/20  
+https://mangkyu.tistory.com/20   
+https://ultrakain.gitbooks.io/jpa/content/chapter1/chapter1.1.html   
