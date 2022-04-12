@@ -4,7 +4,7 @@
 Web Browser [xplatform](xfdl), 여기서 url로 controller에게 요청 ->   
 Controller (web), url요청받은걸로 service 실행  ->  
 Service  (service) service에서 mapping ->   
-DAO (dao), mapping해줘서 sql???.xml에서 쿼리 실행   
+DAO (dao), mapping해줘서 sql.xml에서 쿼리 실행(resources-> sqlmap)쪽에 있을 것 같음.     
 
 
 참조 : https://dalpaeng00.tistory.com/83
