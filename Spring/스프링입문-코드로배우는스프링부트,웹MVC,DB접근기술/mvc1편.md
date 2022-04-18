@@ -79,7 +79,7 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 
 <br></br>
 
-## Get 방식
+## HTTP Request : Get 방식
 ![image](https://user-images.githubusercontent.com/84604563/163758927-8e201309-e505-47af-bd9a-260ed415a338.png)
 
 <br></br>
@@ -91,7 +91,29 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 
 ![image](https://user-images.githubusercontent.com/84604563/163759490-fa0c21d7-7fcb-4956-a79e-957c01b9aaeb.png)
 
-## POST HTML FORM방식  
+<br></br>
+
+## HTTP Request : POST HTML FORM 방식  
 ![image](https://user-images.githubusercontent.com/84604563/163777508-ec22acfb-5715-4833-ab2f-5588d59cd45e.png)
 
+<br></br>
+
+## HTTP Request : API Message Body - 단순 텍스트 방식
+<br></br>
+HTTP API Message Body : HTTP API에서 주로 사용, JSON, XML, TEXT 보낸다. POST, PUT, PATCH 방식  
+![image](https://user-images.githubusercontent.com/84604563/163778914-77a5d9d7-845e-4ee9-a2ee-09eb90dbae2e.png)
+ <br></br>
+## HTTP Request : API Message Body - JSON 방식
+<br></br>
+
+## HTTPServletResponse - 기본사용법
+<br></br>
+
+## HTTP Response Data - 단순 텍스트, HTML
+<br></br>
+
+## HTTP Response Data - API JSON
+<br></br>
+
+## Summary
 <br></br>
