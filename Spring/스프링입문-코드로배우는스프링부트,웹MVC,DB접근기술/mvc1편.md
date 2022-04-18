@@ -94,22 +94,37 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 <br></br>
 
 ## HTTP Request : POST HTML FORM 방식  
-![image](https://user-images.githubusercontent.com/84604563/163777508-ec22acfb-5715-4833-ab2f-5588d59cd45e.png)
+![image](https://user-images.githubusercontent.com/84604563/163777508-ec22acfb-5715-4833-ab2f-5588d59cd45e.png)  
+![image](https://user-images.githubusercontent.com/84604563/163781338-2c9a78c4-b21a-486a-b929-13b495daa6f0.png)  
+![image](https://user-images.githubusercontent.com/84604563/163783462-e6b8b5c5-13f6-4d1e-ac49-04c8486edf01.png)  
+![image](https://user-images.githubusercontent.com/84604563/163783489-8e0e77ac-9b2b-4c02-aa4a-62fa49087785.png)  
+
 
 <br></br>
 
 ## HTTP Request : API Message Body - 단순 텍스트 방식
-<br></br>
 HTTP API Message Body : HTTP API에서 주로 사용, JSON, XML, TEXT 보낸다. POST, PUT, PATCH 방식  
-![image](https://user-images.githubusercontent.com/84604563/163778914-77a5d9d7-845e-4ee9-a2ee-09eb90dbae2e.png)
+![image](https://user-images.githubusercontent.com/84604563/163779130-a10127dc-611d-4067-a4a4-2d59207060a2.png)  
+![image](https://user-images.githubusercontent.com/84604563/163779158-c2588ee8-adbd-4aeb-96b2-0aaaa971c236.png)
+
  <br></br>
 ## HTTP Request : API Message Body - JSON 방식
+![image](https://user-images.githubusercontent.com/84604563/163781129-8d33b027-dec9-4238-90bb-34bf094951ee.png)    
+![image](https://user-images.githubusercontent.com/84604563/163781621-7cd7ec65-c481-4ea0-9567-47e05a35d4e7.png)  
+
 <br></br>
 
+
 ## HTTPServletResponse - 기본사용법
+![image](https://user-images.githubusercontent.com/84604563/163781769-70e6e5fd-950c-4b35-9a74-9c36c58086b2.png)
+
 <br></br>
 
 ## HTTP Response Data - 단순 텍스트, HTML
+![image](https://user-images.githubusercontent.com/84604563/163782936-26adc762-0545-40cf-afb4-428f4c31f8b1.png)  
+![image](https://user-images.githubusercontent.com/84604563/163783134-1f58346b-9b68-4498-aaa3-2fe5e1606194.png)  
+![image](https://user-images.githubusercontent.com/84604563/163783291-a35f7552-5d6c-4fb6-9bd9-004e415fcda4.png)  
+
 <br></br>
 
 ## HTTP Response Data - API JSON
