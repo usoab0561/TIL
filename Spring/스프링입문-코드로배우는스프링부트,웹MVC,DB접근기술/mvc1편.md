@@ -40,13 +40,30 @@ WAS안에 Servlet 객체 호출할때, Thread사용해서 request가 하나 처�
 !!! **WAS는 멀티 스레드 지원**함 (개발자는 관련 싱글스레드 처럼 코드써도 된다. 그래도 **싱글톤(서블릿, 스프링빈)은 주의)**!!!
 
 ## HTML, HTTP API, CSR, SSR
+<br></br>
+**백앤드 개발자가 고민해야할 점**
 > 정적 리소스 : 고정된 HTML, CSS, 이미지, 영상 제공  
 > HTML 페이지 : 동적으로 필요한 HTML 파일 생성, WAS가 전달(JSP나 타임리프)  
 > HTTP API : JSON {"주문번호": 100, "금액": 5000} 같은 데이터를 전달함.  
  
  <br></br>
  
+ **SSR, CSR**
  > **SSR - Server Side Rendering** : 서버에서 최종 HTML을 생성해서 클라이언트에게 전달. (JSP나 타임리프). 백앤드 개발자. 화면 정적일때 사용     
  > CSR - Client side Rendering : HTML결과를 자바스크립트 이용해서 웹 브라우저에서 동적으로 생성해서 적용.(구글지도같이.. react, vuejs) 프론트 개발자       
  
  
+## JAVA WEB history
+Servlet : JAVA안 HTML      
+JSP : HTML안 JAVA   
+Servlet + JSP -> MVC패턴 사용  
+MVC framework 자동화로 바꿔줌
+Annotation기반 MVC 등장. Spring MVC 등장   
+스프링부트 등장. 과거에는 서버에 WAS직접 설치, 소스는 War 파일로 만들어서 WAS에 배포. -> 스프링부트는 Jar에 WAS서버 포함. 빌드배포 단순화.  
+
+** 최신기술 **
+> Web Servlet - Spring MVC  
+> Web Reactive - Spring WebFlux  
+
+**  자바 뷰 템플릿 **
+JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : HTML모양 유지하면서 뷰 탬플릿 적용. 스프링MVC와 강력한 기능 통합
