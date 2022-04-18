@@ -114,6 +114,8 @@ HTTP API Message Body : HTTP API에서 주로 사용, JSON, XML, TEXT 보낸다.
 
 <br></br>
 
+## 응답 Response는 단순택스트, HTML, JSON 총 3가지 방식이있다.
+<br></br>
 
 ## HTTPServletResponse - 기본사용법
 ![image](https://user-images.githubusercontent.com/84604563/163781769-70e6e5fd-950c-4b35-9a74-9c36c58086b2.png)
@@ -132,9 +134,12 @@ HTTP API Message Body : HTTP API에서 주로 사용, JSON, XML, TEXT 보낸다.
 <br></br>
 
 ## HTTP Response Data - API JSON
- 
+ ![image](https://user-images.githubusercontent.com/84604563/163784859-6a759cce-62ef-4180-8350-1a2e722936a7.png)
+
 
 <br></br>
 
 ## Summary
+requset는 쿼리파라미터, HTML Form(POST), HTTP Message Body(Content Type있는, html form이랑 똑같이 content가 있는것)가 있다.  
+respose는 Text, html, api json 가능 header은 여러가지 기능 가능 
 <br></br>
