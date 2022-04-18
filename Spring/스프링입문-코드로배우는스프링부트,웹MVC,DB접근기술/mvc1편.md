@@ -61,9 +61,9 @@ MVC framework 자동화로 바꿔줌
 Annotation기반 MVC 등장. Spring MVC 등장   
 스프링부트 등장. 과거에는 서버에 WAS직접 설치, 소스는 War 파일로 만들어서 WAS에 배포. -> 스프링부트는 Jar에 WAS서버 포함. 빌드배포 단순화.  
 
-** 최신기술 **
+**최신기술**
 > Web Servlet - Spring MVC  
 > Web Reactive - Spring WebFlux  
 
-**  자바 뷰 템플릿 **
+**자바 뷰 템플릿**
 JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : HTML모양 유지하면서 뷰 탬플릿 적용. 스프링MVC와 강력한 기능 통합
