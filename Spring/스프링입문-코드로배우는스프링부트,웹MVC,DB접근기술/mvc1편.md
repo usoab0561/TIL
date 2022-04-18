@@ -117,17 +117,23 @@ HTTP API Message Body : HTTP API에서 주로 사용, JSON, XML, TEXT 보낸다.
 
 ## HTTPServletResponse - 기본사용법
 ![image](https://user-images.githubusercontent.com/84604563/163781769-70e6e5fd-950c-4b35-9a74-9c36c58086b2.png)
-
-<br></br>
-
-## HTTP Response Data - 단순 텍스트, HTML
 ![image](https://user-images.githubusercontent.com/84604563/163782936-26adc762-0545-40cf-afb4-428f4c31f8b1.png)  
 ![image](https://user-images.githubusercontent.com/84604563/163783134-1f58346b-9b68-4498-aaa3-2fe5e1606194.png)  
 ![image](https://user-images.githubusercontent.com/84604563/163783291-a35f7552-5d6c-4fb6-9bd9-004e415fcda4.png)  
+![image](https://user-images.githubusercontent.com/84604563/163783743-8bc56636-add0-4ea3-9785-5a5cce0d9e6b.png)   
+![image](https://user-images.githubusercontent.com/84604563/163783798-6f8532d1-c8b8-490d-b714-8622c1e71f49.png)  
+<br></br>
+
+## HTTP Response Data - 단순 텍스트, HTML
+
+ ![image](https://user-images.githubusercontent.com/84604563/163783897-a6a5fe30-f541-474b-afbc-5bab20b75e8e.png)   
+![image](https://user-images.githubusercontent.com/84604563/163784035-65d78fdf-4820-4789-82b9-e9cadffd1e5c.png) 
 
 <br></br>
 
 ## HTTP Response Data - API JSON
+ 
+
 <br></br>
 
 ## Summary
