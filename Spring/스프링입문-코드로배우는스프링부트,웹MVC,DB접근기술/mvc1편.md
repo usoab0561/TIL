@@ -1,4 +1,4 @@
-# 웹어플리케이션이해
+ # 웹어플리케이션이해
 거의 모든 데이터를 HTTP 프로토콜 맞게 전송한다.  
 
 <br></br>
@@ -79,6 +79,7 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 
 <br></br>
 
+## Get 방식
 ![image](https://user-images.githubusercontent.com/84604563/163758927-8e201309-e505-47af-bd9a-260ed415a338.png)
 
 <br></br>
@@ -90,4 +91,7 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 
 ![image](https://user-images.githubusercontent.com/84604563/163759490-fa0c21d7-7fcb-4956-a79e-957c01b9aaeb.png)
 
- 
+## POST HTML FORM방식  
+![image](https://user-images.githubusercontent.com/84604563/163777508-ec22acfb-5715-4833-ab2f-5588d59cd45e.png)
+
+<br></br>
