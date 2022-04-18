@@ -40,4 +40,13 @@ WAS안에 Servlet 객체 호출할때, Thread사용해서 request가 하나 처�
 !!! **WAS는 멀티 스레드 지원**함 (개발자는 관련 싱글스레드 처럼 코드써도 된다. 그래도 **싱글톤(서블릿, 스프링빈)은 주의)**!!!
 
 ## HTML, HTTP API, CSR, SSR
-HTMP
+> 정적 리소스 : 고정된 HTML, CSS, 이미지, 영상 제공  
+> HTML 페이지 : 동적으로 필요한 HTML 파일 생성, WAS가 전달(JSP나 타임리프)  
+> HTTP API : JSON {"주문번호": 100, "금액": 5000} 같은 데이터를 전달함.  
+ 
+ <br></br>
+ 
+ > **SSR - Server Side Rendering** : 서버에서 최종 HTML을 생성해서 클라이언트에게 전달. (JSP나 타임리프). 백앤드 개발자. 화면 정적일때 사용     
+ > CSR - Client side Rendering : HTML결과를 자바스크립트 이용해서 웹 브라우저에서 동적으로 생성해서 적용.(구글지도같이.. react, vuejs) 프론트 개발자       
+ 
+ 
