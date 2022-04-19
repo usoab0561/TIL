@@ -79,11 +79,12 @@ JSP : 속도 느림 -> 프리마커, 벨로시티 -> 타임리프(Thymeleaf) : H
 
 <br></br>
 
-## HTTP Request : Get 방식
+## HTTP Request
 ![image](https://user-images.githubusercontent.com/84604563/163758927-8e201309-e505-47af-bd9a-260ed415a338.png)
 
 <br></br>
 
+## HTTP Request : Get 방식
 ![image](https://user-images.githubusercontent.com/84604563/163759021-aedd5292-1bf6-4383-a87c-031d069a4e47.png)
 
 
