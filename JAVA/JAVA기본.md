@@ -73,3 +73,9 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 ![image](https://user-images.githubusercontent.com/84604563/163916932-f90167b0-bc69-418a-acde-4ccda896b461.png)  
 
 
+# MAP - dictionary같은것.
+![image](https://user-images.githubusercontent.com/84604563/163917018-7c87b128-18f2-4c67-8016-f765c08b0d88.png)  
+![image](https://user-images.githubusercontent.com/84604563/163917051-11647718-c74d-4eec-8b9c-04b4ad827d77.png)  
+![image](https://user-images.githubusercontent.com/84604563/163917120-297fc55b-6c5f-42d3-8097-5852efa72dd3.png)
+![image](https://user-images.githubusercontent.com/84604563/163917240-706a0c3d-ba4c-4083-a218-aa529aa0003e.png)
+
