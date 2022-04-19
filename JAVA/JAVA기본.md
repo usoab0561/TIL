@@ -51,3 +51,21 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 ![image](https://user-images.githubusercontent.com/84604563/163901510-1dd4c97a-f4b4-4394-9bc4-6f59c99ab460.png)  
 
 <br></br>
+
+# Array
+![image](https://user-images.githubusercontent.com/84604563/163901605-83d1f6ee-6b30-4974-9734-9898fe049407.png)
+
+
+<br></br>
+
+## ArrayList
+![image](https://user-images.githubusercontent.com/84604563/163902323-4c08135c-2ad3-49e6-8be6-ac786a8f1808.png)
+![image](https://user-images.githubusercontent.com/84604563/163902339-72d73f6a-5e25-4245-b4f2-ef6208985a3c.png)
+![image](https://user-images.githubusercontent.com/84604563/163902367-8b2c035b-3cb7-4448-aee2-439d08c0cd00.png)
+![image](https://user-images.githubusercontent.com/84604563/163902374-4e60b15c-ee3e-43d9-bf64-72c28addb8ae.png)
+![image](https://user-images.githubusercontent.com/84604563/163902394-2ddf7c07-2903-4756-8ffe-51bfef92b984.png)
+![image](https://user-images.githubusercontent.com/84604563/163902446-8a1aac7a-8e2c-4cd7-a1a3-744d91db4490.png)
+
+## 제너릭스
+![image](https://user-images.githubusercontent.com/84604563/163902483-c315bf4a-4619-469f-a07f-2b2c9d4616f8.png)
+
