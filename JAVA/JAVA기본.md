@@ -64,8 +64,8 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 ![image](https://user-images.githubusercontent.com/84604563/163902367-8b2c035b-3cb7-4448-aee2-439d08c0cd00.png)
 ![image](https://user-images.githubusercontent.com/84604563/163902374-4e60b15c-ee3e-43d9-bf64-72c28addb8ae.png)
 ![image](https://user-images.githubusercontent.com/84604563/163902394-2ddf7c07-2903-4756-8ffe-51bfef92b984.png)
-![image](https://user-images.githubusercontent.com/84604563/163902446-8a1aac7a-8e2c-4cd7-a1a3-744d91db4490.png)
-**제너릭스**
+![image](https://user-images.githubusercontent.com/84604563/163902446-8a1aac7a-8e2c-4cd7-a1a3-744d91db4490.png)  
+**제너릭스**  
 ![image](https://user-images.githubusercontent.com/84604563/163902483-c315bf4a-4619-469f-a07f-2b2c9d4616f8.png)  
 ![image](https://user-images.githubusercontent.com/84604563/163916685-f2900c2a-8fd4-4431-b1ee-856126944034.png)  
 ![image](https://user-images.githubusercontent.com/84604563/163916721-a1875f88-a60c-4695-9374-cce3bab3143b.png)  
@@ -74,8 +74,10 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 
 
 # MAP - dictionary같은것.
-![image](https://user-images.githubusercontent.com/84604563/163917018-7c87b128-18f2-4c67-8016-f765c08b0d88.png)  
-![image](https://user-images.githubusercontent.com/84604563/163917051-11647718-c74d-4eec-8b9c-04b4ad827d77.png)  
-![image](https://user-images.githubusercontent.com/84604563/163917120-297fc55b-6c5f-42d3-8097-5852efa72dd3.png)
-![image](https://user-images.githubusercontent.com/84604563/163917240-706a0c3d-ba4c-4083-a218-aa529aa0003e.png)
+![image](https://user-images.githubusercontent.com/84604563/163917018-7c87b128-18f2-4c67-8016-f765c08b0d88.png)   
+![image](https://user-images.githubusercontent.com/84604563/163917051-11647718-c74d-4eec-8b9c-04b4ad827d77.png)   
+![image](https://user-images.githubusercontent.com/84604563/163917120-297fc55b-6c5f-42d3-8097-5852efa72dd3.png)  
+![image](https://user-images.githubusercontent.com/84604563/163917240-706a0c3d-ba4c-4083-a218-aa529aa0003e.png)   
+![image](https://user-images.githubusercontent.com/84604563/163945681-4164612b-4c26-4f8a-8bcc-41585048fde3.png)   
+![image](https://user-images.githubusercontent.com/84604563/163945803-580654d8-63ce-4ca4-b4f4-b58f4a525850.png)  
 
