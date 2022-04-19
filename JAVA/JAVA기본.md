@@ -44,4 +44,10 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 <br></br>
 
 # String Buffer
-##
+![image](https://user-images.githubusercontent.com/84604563/163901186-61f134e3-0942-44d1-bd43-a1877de63e64.png)   
+![image](https://user-images.githubusercontent.com/84604563/163901269-fd24d3e7-ff0f-459a-b146-c1a7493cd81e.png)  
+![image](https://user-images.githubusercontent.com/84604563/163901446-0785c825-c17b-4c48-9015-e82169477c99.png)  
+![image](https://user-images.githubusercontent.com/84604563/163901471-5fa228cc-339b-4364-8da4-5d5da0a3f6fd.png)  
+![image](https://user-images.githubusercontent.com/84604563/163901510-1dd4c97a-f4b4-4394-9bc4-6f59c99ab460.png)  
+
+<br></br>
