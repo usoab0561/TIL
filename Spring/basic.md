@@ -20,7 +20,7 @@
 
 https://xlffm3.github.io/spring%20data/orm-sqlmapper-jdbc/
 
-
+https://ninedc.tistory.com/m/entry/Spring%EC%8A%A4%ED%94%84%EB%A7%81-mybatis%EB%A7%88%EC%9D%B4%EB%B0%94%ED%8B%B0%EC%8A%A4-mysql-%EC%98%88%EC%A0%9C%EB%A1%9C-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0
 
  
 
