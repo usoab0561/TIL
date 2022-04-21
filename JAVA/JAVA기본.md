@@ -118,3 +118,10 @@ Primitive자료형은 리터럴로 설정해야하고, 객체 생성하고 싶�
 <br></br>
 
 # 파일 입출력
+
+<br></br>
+
+# 예외처리
+## throw, throws
+throw는 선언이후 문제 생기면 try, catch에서 catch로 바로 잡아주고, thorws는 상위에서 있는 catch로 잡아준다.  
+참고 : https://bvc12.tistory.com/196  
