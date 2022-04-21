@@ -25,5 +25,6 @@ https://ninedc.tistory.com/m/entry/Spring%EC%8A%A4%ED%94%84%EB%A7%81-mybatis%EB%
 
 # DAO, DTO, VO
 ![image](https://user-images.githubusercontent.com/84604563/164358147-33a3fd21-a5aa-44a3-892a-d861e110121f.png)
+![image](https://user-images.githubusercontent.com/84604563/164358452-8c551880-83c9-467b-ac4e-da24592b3271.png)  
 
 
